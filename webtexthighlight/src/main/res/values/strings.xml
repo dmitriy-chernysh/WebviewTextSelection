@@ -1,0 +1,4 @@
+<resources>
+    <string name="menu_item_highlight_text">Highlight</string>
+    <string name="menu_item_clear_highlights">Clear Highlights</string>
+</resources>

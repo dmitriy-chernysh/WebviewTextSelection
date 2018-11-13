@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+    <item
+        android:id="@+id/action_highlight"
+        android:orderInCategory="100"
+        android:title="@string/menu_item_highlight_text"
+        app:showAsAction="never"
+        android:onClick="onContextualMenuItemClicked"/>
+
+    <item
+        android:id="@+id/action_clear_highlights"
+        android:orderInCategory="100"
+        android:title="@string/menu_item_clear_highlights"
+        app:showAsAction="never"
+        android:onClick="onContextualMenuItemClicked"/>
+</menu>
